@@ -1,9 +1,8 @@
 
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import ItemList from './ItemList';
 import ItemDetail from './ItemDetail';
-
+import ItemList from './ItemList';
 function App() {
 	return (
 		<Router>
